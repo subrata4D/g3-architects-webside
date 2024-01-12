@@ -1,6 +1,6 @@
 /* work sans font frome google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap')
-
+/* shared style */
 // <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900
 
@@ -9,6 +9,17 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+.btn-primary{
+     border-radius: 8px;
+     color: #FFF;
+     font-size: 1.25rem;
+     background: #FF900E;
+     padding: 20px 25px;
+     color: #FFF;
+     cursor: pointer;
+     border: 0;
+
 }
 /* header styles */
 header{
